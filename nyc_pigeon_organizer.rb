@@ -19,8 +19,7 @@ def nyc_pigeon_organizer(data)
 
   data.each do |attribute, inner_att|
     inner_att.each do |inner, pigeons|
-      new_data{
-      names.each do |pigeon|
+      pigeons.each do |pigeon|
         if pigeons.find(pigeon)
           new_data[pigeon][attribute].push(inner_att.to_str)
         end
