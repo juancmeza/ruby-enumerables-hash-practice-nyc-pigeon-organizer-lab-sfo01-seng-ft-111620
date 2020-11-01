@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
           new_data[pigeon] = {}
         end
         if !new_data[pigeon][attribute]
+          new_data[pigeon][attribute] = []
           new_data[pigeon][attribute].push(inner.to_s)
         end 
         
