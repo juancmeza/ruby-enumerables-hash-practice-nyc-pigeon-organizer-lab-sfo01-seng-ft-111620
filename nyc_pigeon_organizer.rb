@@ -14,8 +14,6 @@ def nyc_pigeon_organizer(data)
           new_data[pigeon][attribute] = []
         end 
         new_data[pigeon][attribute].push(inner.to_s)
-        end 
-        
       end   
     end
   end
